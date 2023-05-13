@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 public class VermouthProperties {
     private int port;
     private String connectString;
+    @Value("${spring.application.name}")
     private String prefix;
     private String localAddress;
 

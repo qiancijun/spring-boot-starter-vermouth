@@ -26,6 +26,7 @@ public class VermouthGrpcClient extends VermouthGrpcGrpc.VermouthGrpcImplBase {
     }
 
     public void registeToVermouth(long port, String prefix, String balanceMode, String localAddr) {
+        prefix = "/" + prefix;
         VermouthRpcService.RegisterToProxyReq registerToProxyReq = VermouthRpcService.RegisterToProxyReq
                 .newBuilder()
                 .setPort(port)

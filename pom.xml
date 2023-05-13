@@ -6,7 +6,7 @@
 
     <groupId>com.cheryl</groupId>
     <artifactId>spring-boot-starter-vermouth</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <repositories>
         <!--    只有中央仓库中才有ProtoBuf的编译插件...    -->
